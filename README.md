@@ -69,36 +69,6 @@ Model choice is interpreted in light of GWR findings on spatial heterogeneity.
 
 ---
 
-## Project Structure
-cornyield/
-│
-├── data/
-│ ├── raw/
-│ ├── processed/
-│
-├── notebooks/
-│ ├── 01_exploration.ipynb
-│ ├── 02_gwr_analysis.ipynb
-│ ├── 03_feature_engineering.ipynb
-│ ├── 04_model_training.ipynb
-│
-├── src/
-│ ├── data_utils.py
-│ ├── spatial_utils.py
-│ ├── models.py
-│ ├── evaluation.py
-│
-├── results/
-│ ├── gwr_outputs/
-│ ├── metrics/
-│ ├── figures/
-│
-├── README.md
-└── requirements.txt
-
-
----
-
 ## Reproducibility
 - Fixed random seeds
 - Explicit spatial bandwidth selection for GWR
